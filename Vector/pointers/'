@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+double f=7.5f;
+int *ip,i,j;
+ip=&f;
+ip=ip+1;
+for(j=0;j<=31;j++)
+{
+ for(i=31;i>=0;i--)
+  {
+   if(*ip&1<<i)
+   printf("1");
+      else
+      printf("0");
+  }
+ip=ip-1;
+
+
+}
+printf("\n");
+}
