@@ -1,0 +1,243 @@
+Mixer name: 'Panda'
+Number of controls: 240
+ctl	type	num	name                                     value
+0	ENUM	1	VP Algorithm                             Off
+1	ENUM	1	MM Algorithm                             Off
+2	ENUM	1	PT Algorithm                             On
+3	ENUM	1	AZ Algorithm                             Off
+4	ENUM	1	CVQ_ASR Algorithm                        Off
+5	ENUM	1	Algorithm Rate                           fs=8khz
+6	BOOL	1	ASR                                      Off
+7	BOOL	1	Write Route Cmds                         Off
+8	BOOL	1	Flush Route Cmds                         Off
+9	ENUM	1	Stereo Widening Effect                   OFF
+10	ENUM	1	Noise Suppression                        On
+11	ENUM	1	Mic Config                               CT Multi-mic
+12	ENUM	1	Audio Zoom                              
+13	ENUM	1	Stereo Width                            
+14	ENUM	1	PCM Port Selection                       None
+15	ENUM	1	Command Mode Selection                   Polling
+16	ENUM	1	AEC mode                                 off
+17	INT	1	PCM Port Word Length                     -1
+18	INT	1	PCM Port TDM Slots Per Frame             -1
+19	INT	1	PCM Port TX Delay From FS                -1
+20	INT	1	PCM Port Rx Delay From FS                -1
+21	INT	1	PCM Port Latch Edge                      -1
+22	INT	1	PCM Port Endian                          -1
+23	INT	1	PCM Port Tristate                        -1
+24	INT	1	PCM Port Audio Mode                      -1
+25	INT	1	PCM Port TDM Enabled                     -1
+26	INT	1	PCM Port Clock Control                   -1
+27	INT	1	PCM Port Data Justification              -1
+28	INT	1	PCM Port FS Duration                     -1
+29	BOOL	1	Bypass Alc                               Off
+30	INT	2	SPKR Gain                                0 0
+31	INT	2	LO Gain                                  0 0
+32	INT	2	HP Gain                                  12 12
+33	INT	2	AUXIN Gain                               0 0
+34	INT	1	SPKRL Gain                               0
+35	INT	1	SPKRR Gain                               0
+36	INT	1	LOL Gain                                 0
+37	INT	1	LOR Gain                                 0
+38	INT	1	HPL Gain                                 12
+39	INT	1	HPR Gain                                 12
+40	INT	1	EP Gain                                  0
+41	INT	1	AUXINL Gain                              0
+42	INT	1	AUXINR Gain                              0
+43	INT	1	MIC0 Gain                                0
+44	INT	1	MIC1 Gain                                0
+45	INT	1	MIC2 Gain                                0
+46	INT	1	MICHS Gain                               0
+47	ENUM	1	AUXL Mono                                Mono
+48	ENUM	1	AUXR Mono                                Mono
+49	BOOL	1	ADC Mute                                 Off
+50	BOOL	1	EP Mute                                  Off
+51	BOOL	1	HPL Mute                                 Off
+52	BOOL	1	HPR Mute                                 Off
+53	BOOL	1	SPKRL Mute                               Off
+54	BOOL	1	SPKRR Mute                               Off
+55	BOOL	1	LOL Mute                                 Off
+56	BOOL	1	LOR Mute                                 Off
+57	ENUM	1	I2S Channels                             2
+58	ENUM	1	FrameSync SEL                            48
+59	ENUM	1	Bits per Sample                          32
+60	ENUM	1	MICHS SEL MUX                            MIC0_PGA
+61	ENUM	1	MIC0 Input Type                          Differential
+62	ENUM	1	MIC1 Input Type                          Differential
+63	ENUM	1	MIC2 Input Type                          Differential
+64	ENUM	1	MICHS Input Type                         Differential
+65	ENUM	1	AUXIN Input Type                         Differential
+66	ENUM	1	MIC0 Bias Output Voltage                 1.6V
+67	ENUM	1	MIC1 Bias Output Voltage                 1.6V
+68	ENUM	1	MIC2 Bias Output Voltage                 1.6V
+69	ENUM	1	MICHS Bias Output Voltage                1.6V
+70	ENUM	1	MIC0 Input Impedance Mode                100kohm
+71	ENUM	1	MIC1 Input Impedance Mode                100kohm
+72	ENUM	1	MIC2 Input Impedance Mode                100kohm
+73	ENUM	1	MICHS Input Impedance Mode               100kohm
+74	ENUM	1	Voice Sense Status                       No Event
+75	ENUM	1	Voice Sense Training Mode               
+76	ENUM	1	Voice Sense Training Status             
+77	INT	1	Voice Sense Training Model Length        -22
+78	ENUM	1	Voice Sense Training Record              Previous Keyword
+79	ENUM	1	Voice Sense Stored Keyword               Put
+80	INT	1	Voice Sense Detect Sensitivity           -22
+81	INT	1	Voice Activity Detect Sensitivity        -22
+82	INT	1	Continuous Voice Sense Preset            0
+83	INT	1	Enable/Disable Streaming PATH/Endpoint   0
+84	INT	1	CVQ Activate Keywords                    0
+85	BOOL	1	CVQ Sleep                                Off
+86	ENUM	1	ES755 Power State                        Normal
+87	ENUM	1	Runtime PM                               Enable
+88	INT	1	Preset                                   0
+89	INT	1	ES755 Get Event Status                   0
+90	INT	1	Get RDB data size                        0
+91	ENUM	1	DL1 Equalizer                            Flat response
+92	ENUM	1	DL2 Left Equalizer                       Flat response
+93	ENUM	1	DL2 Right Equalizer                      Flat response
+94	ENUM	1	Sidetone Equalizer                       Flat response
+95	ENUM	1	AMIC Equalizer                           High-pass 0dB
+96	ENUM	1	DMIC Equalizer                           High-pass 0dB
+97	INT	1	DL1 Media Playback Volume                0
+98	INT	1	DL1 Tones Playback Volume                0
+99	INT	1	DL1 Voice Playback Volume                0
+100	INT	1	DL1 Capture Playback Volume              0
+101	INT	1	DL2 Media Playback Volume                0
+102	INT	1	DL2 Tones Playback Volume                0
+103	INT	1	DL2 Voice Playback Volume                0
+104	INT	1	DL2 Capture Playback Volume              0
+105	INT	1	VXREC Media Volume                       0
+106	INT	1	VXREC Tones Volume                       0
+107	INT	1	VXREC Voice DL Volume                    0
+108	INT	1	VXREC Voice UL Volume                    0
+109	INT	1	AUDUL Media Volume                       0
+110	INT	1	AUDUL Tones Volume                       0
+111	INT	1	AUDUL Voice UL Volume                    120
+112	INT	1	AUDUL Voice DL Volume                    0
+113	INT	1	SDT UL Volume                            0
+114	INT	1	SDT DL Volume                            120
+115	INT	2	DMIC1 UL Volume                          120 120
+116	INT	2	DMIC2 UL Volume                          120 120
+117	INT	2	DMIC3 UL Volume                          120 120
+118	INT	2	AMIC UL Volume                           120 120
+119	INT	2	BT UL Volume                             120 120
+120	BOOL	1	DL1 Mono Mixer                           Off
+121	BOOL	1	DL2 Mono Mixer                           Off
+122	BOOL	1	AUDUL Mono Mixer                         Off
+123	BOOL	1	DL1 MM_EXT Switch                        Off
+124	BOOL	1	DL1 BT_VX Switch                         Off
+125	BOOL	1	DL1 PDM Switch                           Off
+126	BOOL	1	Sidetone Mixer Capture                   Off
+127	BOOL	1	Sidetone Mixer Playback                  Off
+128	BOOL	1	Capture Mixer Tones                      Off
+129	BOOL	1	Capture Mixer Voice Playback             Off
+130	BOOL	1	Capture Mixer Voice Capture              Off
+131	BOOL	1	Capture Mixer Media Playback             Off
+132	BOOL	1	Voice Capture Mixer Tones Playback       Off
+133	BOOL	1	Voice Capture Mixer Media Playback       Off
+134	BOOL	1	Voice Capture Mixer Capture              Off
+135	BOOL	1	DL2 Mixer Tones                          Off
+136	BOOL	1	DL2 Mixer Voice                          Off
+137	BOOL	1	DL2 Mixer Capture                        Off
+138	BOOL	1	DL2 Mixer Multimedia                     Off
+139	BOOL	1	DL1 Mixer Tones                          Off
+140	BOOL	1	DL1 Mixer Voice                          Off
+141	BOOL	1	DL1 Mixer Capture                        Off
+142	BOOL	1	DL1 Mixer Multimedia                     Off
+143	ENUM	1	MUX_VX1                                  None
+144	ENUM	1	MUX_VX0                                  None
+145	ENUM	1	MUX_UL11                                 None
+146	ENUM	1	MUX_UL10                                 None
+147	ENUM	1	MUX_UL07                                 None
+148	ENUM	1	MUX_UL06                                 None
+149	ENUM	1	MUX_UL05                                 None
+150	ENUM	1	MUX_UL04                                 None
+151	ENUM	1	MUX_UL03                                 None
+152	ENUM	1	MUX_UL02                                 None
+153	ENUM	1	MUX_UL01                                 None
+154	ENUM	1	MUX_UL00                                 None
+155	BOOL	1	LOR MIXER DAC0R                          Off
+156	BOOL	1	LOR MIXER DAC1R                          Off
+157	BOOL	1	LOR MIXER AUXR                           Off
+158	BOOL	1	LOL MIXER DAC0L                          Off
+159	BOOL	1	LOL MIXER DAC1L                          Off
+160	BOOL	1	LOL MIXER AUXL                           Off
+161	BOOL	1	SPKRR MIXER DAC0R                        Off
+162	BOOL	1	SPKRR MIXER DAC1R                        Off
+163	BOOL	1	SPKRR MIXER AUXR                         Off
+164	BOOL	1	SPKRL MIXER DAC0L                        Off
+165	BOOL	1	SPKRL MIXER DAC1L                        Off
+166	BOOL	1	SPKRL MIXER AUXL                         Off
+167	BOOL	1	HPR MIXER DAC0R                          On
+168	BOOL	1	HPR MIXER AUXR                           Off
+169	BOOL	1	HPL MIXER DAC0L                          On
+170	BOOL	1	HPL MIXER AUXL                           Off
+171	BOOL	1	EP MIXER DAC0L                           Off
+172	BOOL	1	EP MIXER AUXL                            Off
+173	ENUM	1	ADC2 MUX                                 MIC2_PGA
+174	ENUM	1	ADC1 MUX                                 MIC1_PGA
+175	BOOL	1	MICHS ON Switch                          Off
+176	ENUM	1	DAC1.1 MUX                               None
+177	ENUM	1	DAC1.0 MUX                               None
+178	ENUM	1	DAC0.1 MUX                               Pass AUDOUT2
+179	ENUM	1	DAC0.0 MUX                               Pass AUDOUT1
+180	ENUM	1	SBUS.TX5 MUX                             None
+181	ENUM	1	SBUS.TX4 MUX                             None
+182	ENUM	1	SBUS.TX3 MUX                             None
+183	ENUM	1	SBUS.TX2 MUX                             None
+184	ENUM	1	SBUS.TX1 MUX                             None
+185	ENUM	1	SBUS.TX0 MUX                             None
+186	ENUM	1	PCM2.3 MUX                               None
+187	ENUM	1	PCM2.2 MUX                               None
+188	ENUM	1	PCM2.1 MUX                               None
+189	ENUM	1	PCM2.0 MUX                               None
+190	ENUM	1	PCM1.3 MUX                               None
+191	ENUM	1	PCM1.2 MUX                               None
+192	ENUM	1	PCM1.1 MUX                               None
+193	ENUM	1	PCM1.0 MUX                               None
+194	ENUM	1	PCM0.3 MUX                               None
+195	ENUM	1	PCM0.2 MUX                               None
+196	ENUM	1	PCM0.1 MUX                               None
+197	ENUM	1	PCM0.0 MUX                               None
+198	ENUM	1	CVQ ASR IN MUX                           None
+199	ENUM	1	AudioZoom AI1 MUX                        None
+200	ENUM	1	AudioZoom Teritary MUX                   None
+201	ENUM	1	AudioZoom Secondary MUX                  None
+202	ENUM	1	AudioZoom Primary MUX                    None
+203	ENUM	1	MM PASSIN2 MUX                           None
+204	ENUM	1	MM PASSIN1 MUX                           None
+205	ENUM	1	MM UITONE2 MUX                           None
+206	ENUM	1	MM UITONE1 MUX                           None
+207	ENUM	1	MM AUDIN2 MUX                            None
+208	ENUM	1	MM AUDIN1 MUX                            None
+209	ENUM	1	Pass AUDIN4 MUX                          None
+210	ENUM	1	Pass AUDIN3 MUX                          None
+211	ENUM	1	Pass AUDIN2 MUX                          PCM0.1
+212	ENUM	1	Pass AUDIN1 MUX                          PCM0.0
+213	ENUM	1	VP UITONE2 MUX                           None
+214	ENUM	1	VP UITONE1 MUX                           None
+215	ENUM	1	VP FEIN MUX                              None
+216	ENUM	1	VP AECREF MUX                            None
+217	ENUM	1	VP Teritary MUX                          None
+218	ENUM	1	VP Secondary MUX                         None
+219	ENUM	1	VP Primary MUX                           None
+220	INT	2	Capture Preamplifier Volume              1 1
+221	INT	2	Capture Volume                           0 0
+222	INT	2	Aux FM Volume                            0 0
+223	INT	2	Headset Playback Volume                  0 0
+224	INT	2	Handsfree Playback Volume                0 0
+225	INT	1	Earphone Playback Volume                 0
+226	ENUM	1	Headset Power Mode                       Low-Power
+227	ENUM	1	PLL Selection                            Low-Power
+228	BOOL	1	AUXR Playback Switch                     Off
+229	BOOL	1	AUXL Playback Switch                     Off
+230	BOOL	1	Earphone Playback Switch                 Off
+231	ENUM	1	Vibra Right Playback                     Input FF
+232	ENUM	1	Vibra Left Playback                      Input FF
+233	ENUM	1	Headset Right Playback                   Off
+234	ENUM	1	Headset Left Playback                    Off
+235	ENUM	1	Handsfree Right Playback                 Off
+236	ENUM	1	Handsfree Left Playback                  Off
+237	ENUM	1	Analog Right Capture Route               Off
+238	ENUM	1	Analog Left Capture Route                Off
+239	ENUM	1	TWL6040 Power Mode                       Low-Power
