@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[remote "origin"]
+	url = j12
+	fetch = +refs/heads/*:refs/remotes/origin/*
